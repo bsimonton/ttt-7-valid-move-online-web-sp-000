@@ -9,7 +9,8 @@ end
 
 
 
-def valid_move()
+def valid_move(board, index)
+  index.between(0)
   
 end
 
